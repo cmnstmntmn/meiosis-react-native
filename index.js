@@ -28,7 +28,7 @@ const {states, actions} = meiosis.mergerino.setup({
 // Only for using Meiosis Tracer in development.
 if (process.env.NODE_ENV === 'development') {
   console.info('Starting Meiosis Tracer');
-  meiosisTracer({streams: [{stream: [], label: `${appName} - state`}]});
+  meiosisTracer({streams: [{stream: [states], label: `${appName} - state`}]});
 }
 
 const App = meiosis.react.setup({React, Root});
