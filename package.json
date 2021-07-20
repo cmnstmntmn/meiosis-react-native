@@ -15,7 +15,7 @@
     "meiosis-tracer": "^4.0.0",
     "mergerino": "^0.4.0",
     "react": "16.13.1",
-    "react-native": "0.63.1"
+    "react-native": "0.64.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
